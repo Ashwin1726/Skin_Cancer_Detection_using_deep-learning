@@ -1,91 +1,73 @@
 <div align="center">
 
-🩺 Skin Cancer Detection
+# 🩺 Skin Cancer Detection
 
-Deep Learning • Computer Vision • Flask
+### AI • Deep Learning • Computer Vision
 
-CNN-powered skin lesion classification with a simple web-based prediction interface.
+**A CNN-powered web application for skin lesion classification using TensorFlow & Flask.**
 
 <br/>
 
-<img src="skin/model_architecture.png" width="650" alt="CNN Architecture"/>
+<img src="model_architecture.png" width="650" alt="CNN Model Architecture"/>
 
 <br/><br/>
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
+<br/>
 
-
-
+<a href="https://github.com/YOUR_USERNAME/Skin_Cancer_Detection_using_deep-learning">
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/Skin_Cancer_Detection_using_deep-learning?style=social" />
+</a>
 
 </div>
 
-✨ About
+---
 
-A Deep Learning + Computer Vision project that analyzes an uploaded skin image and classifies it into 7 lesion categories using a custom CNN model.
+## ✨ About The Project
 
-Flow: Upload Image → Preprocess → CNN → Prediction → Result
+**Skin Cancer Detection** is a Deep Learning and Computer Vision project
+that uses a custom **Convolutional Neural Network (CNN)** to classify
+uploaded skin images into **7 different lesion categories**.
 
-🧠 Classes
+The trained model is integrated into a **Flask web application**, allowing
+users to upload an image and receive a model-generated classification result.
 
-Actinic Keratosis · Basal Cell Carcinoma · Benign Keratosis · Dermatofibroma · Melanocytic Nevi · Pyogenic Granuloma · Melanoma
+### 🎯 Objective
 
-⚡ Features
+The goal of this project is to demonstrate how **Deep Learning + Computer
+Vision + Web Development** can be combined to build an end-to-end image
+classification application.
 
-🧠 Custom CNN with TensorFlow/Keras
+---
 
-🖼️ Skin-image upload & preview
+## 🧠 How It Works
 
-🔬 7-class lesion classification
-
-🌐 Flask web interface
-
-📊 Pre-trained model weights
-
-📓 Jupyter/Colab experimentation
-
-🛠️ Tech Stack
-
-Python TensorFlow Keras CNN OpenCV NumPy Pillow Flask Bootstrap
-
-🚀 Run Locally
-
-git clone https://github.com/YOUR_USERNAME/Skin_Cancer_Detection_using_deep-learning.git
-cd Skin_Cancer_Detection_using_deep-learning/skin
-pip install tensorflow flask pillow numpy
-python app.py
-
-Open http://127.0.0.1:5000
-
-📁 Structure
-
-skin/
-├── app.py
-├── skin_cancer_detection.py
-├── best_model.h5
-├── model_architecture.png
-├── skin_project.ipynb
-├── templates/
-├── static/
-└── smaples/
-
-⚠️ For educational/research purposes only. This model is not a medical diagnostic tool. Consult a qualified healthcare professional for medical advice.
-
-<div align="center">
-
-👨‍💻 Ashwin Kumar
-
-AI/ML Engineer · Full-Stack Developer
-
-<a href="https://www.linkedin.com/in/ashwin2617/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:ashwinkumaras59@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-⭐ Star this repository if you find it useful.
-
-</div>
+```text
+                📷
+          Upload Skin Image
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Image Processing│
+        │   28 × 28 × 3   │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │    CNN Model    │
+        │ TensorFlow/Keras│
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │  Classification │
+        │   7 Classes     │
+        └────────┬────────┘
+                 │
+                 ▼
+             📊 Result
