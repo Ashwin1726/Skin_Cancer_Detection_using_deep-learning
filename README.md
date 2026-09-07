@@ -169,11 +169,10 @@ python app.py
 
 Once the Flask server starts, open:
 
-<p align="center">
+
 
 👉 http://127.0.0.1:5000
 
-</p>
 ```
 
 ⚠️ Medical Disclaimer
@@ -190,14 +189,32 @@ diagnosis, or treatment.
 If you have any medical concern, please consult a qualified healthcare
 professional.
 
-.
 
-🔗 Project Resources
-<div align="center">
-📚 Resource	🔗 Access
-📖 Project Blog	Read the Blog
-🧪 Google Colab	Open Notebook
-</div>
+
+## 🔗 Project Resources
+
+<table align="center">
+  <tr>
+    <th>📚 Resource</th>
+    <th>🔗 Access</th>
+  </tr>
+  <tr>
+    <td>📖 Project Blog</td>
+    <td>
+      <a href="https://skincareaware.blogspot.com/2024/10/skin-cancer-detection-using-machine.html">
+        Read the Blog →
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>🧪 Google Colab</td>
+    <td>
+      <a href="https://colab.research.google.com/drive/1kkP2r1Lhu3jPSLg-7nmU4SA8IBD5FN1w">
+        Open Notebook →
+      </a>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 👨‍💻 Developed by Ashwin Kumar
