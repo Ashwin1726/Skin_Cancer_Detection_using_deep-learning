@@ -8,7 +8,7 @@ CNN-powered skin lesion classification with a simple web-based prediction interf
 
 <br/>
 
-<img src="model_architecture.png" width="650" alt="CNN Architecture"/>
+<img src="skin/model_architecture.png" width="650" alt="CNN Architecture"/>
 
 <br/><br/>
 
