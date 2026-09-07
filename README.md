@@ -133,14 +133,15 @@ pooling, batch normalization, dropout and dense layers.
 
 Get the project running locally in just a few steps.
 
-### 1️⃣ Clone the Repository
+```
+1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/YOUR_USERNAME/Skin_Cancer_Detection_using_deep-learning.git
 cd Skin_Cancer_Detection_using_deep-learning
 
 2️⃣ Enter the Application Directory
 cd skin
+
 3️⃣ Create a Virtual Environment
 
 Windows
@@ -152,8 +153,11 @@ macOS / Linux
 
 python3 -m venv venv
 source venv/bin/activate
+
 4️⃣ Install Dependencies
+
 pip install tensorflow flask pillow numpy
+
 5️⃣ Verify the Trained Model
 
 Make sure the trained model is available inside the skin directory:
@@ -164,12 +168,12 @@ skin/
 💡 The application uses best_model.h5 for image classification and prediction.
 
 6️⃣ Run the Application
+
 python app.py
+
 7️⃣ Open in Browser
 
 Once the Flask server starts, open:
-
-
 
 👉 http://127.0.0.1:5000
 
