@@ -335,40 +335,9 @@ Predicted lesion class<br/><br/>
 </tbody>
 </table>
 
-<div align="center">
 
-📁 PROJECT STRUCTURE
 
-</div>
 
-Skin_Cancer_Detection_using_deep-learning-main/
-│
-└── skin/
-    │
-    ├── app.py
-    │   └── Flask application
-    │
-    ├── skin_cancer_detection.py
-    │   └── CNN architecture + model loading
-    │
-    ├── best_model.h5
-    │   └── Trained model weights
-    │
-    ├── skin_project.ipynb
-    │   └── Project notebook
-    │
-    ├── model_architecture.png
-    │   └── CNN architecture visualization
-    │
-    ├── wsgi.py
-    │   └── WSGI entry point
-    │
-    ├── templates/
-    │   ├── summa.html
-    │   └── reults.html
-    │
-    └── smaples/
-        └── Sample skin images
 
 <div align="center">
 
@@ -551,14 +520,17 @@ Interested in building practical AI systems using
 
 <br/>
 
-<a href="https://www.linkedin.com/in/ashwin1726/">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<a href="YOUR_PORTFOLIO_URL">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
-
-<br/><br/>
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://www.linkedin.com/in/ashwin2617">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://www.instagram.com/im_ashwinn_" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+<a href="mailto:ashwinkumaras59@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 <br/><br/>
